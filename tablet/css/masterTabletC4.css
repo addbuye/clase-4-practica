@@ -1,6 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .cuerpoPrincipal {
+display: grid;
  background-color: white;
  padding: 16px;
+
 }
 
 #logo {
@@ -35,10 +42,12 @@
 background-color: white;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
+margin: 1px; color: #4a4950;
+
 
 }
 .valoresImg{
-    width: 50%;
+    width: 100%;
     height: auto;
     position: relative;
 }

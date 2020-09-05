@@ -1,0 +1,138 @@
+.headerAmarillo {
+    justify-content: space-between;
+    height: fit-content;
+    position: relative;
+    background-color:#EAC926;
+    padding: 10px 10px 10px 10px;
+        
+}
+.division1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+.division2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.textoNav span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 0px 10px 0px 10px;
+}
+
+
+
+.cuerpoPrincipal {
+    background-color: white;
+    padding: 16px;
+   }
+   
+   #logo {
+       width: 80%;
+   }
+   #cuotas {
+           text-align: center;
+           font-size: 100%;
+           font-family: Arial, Helvetica, sans-serif;
+   
+   }
+   #banner {
+       width: 100%;
+       background-color: #EAC926;
+       
+      
+   }
+   .titulos {
+       font-weight: bold;
+       color: gray;
+       font-size: xx-large;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+   }
+   
+   .introPagina {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       gap: 20px;  
+       
+   }
+   .producto {
+   
+   background-color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 16px;
+   border: solid 3px grey;
+   
+   }
+   .valoresImg{
+       width: 100%;
+       height: auto;
+       position: relative;
+   }
+   
+   .imgShipping {
+       width: 10%;
+       height: auto;
+       margin-top: 20px;
+   
+   }
+   
+   .textoProductos {
+       font-weight: normal;
+       
+   }
+   
+   .precioProductos {
+       font-weight: normal;
+       
+   }
+   
+   .descuento {
+       color: rgb(23, 172, 23);
+       font-size: medium;
+   
+   }
+   
+   .precio {
+       font-weight: bolder;
+       font-size: medium;
+   }
+   
+   
+   .tituloProducto{
+       font-weight:normal;
+       color: #4a4950;
+       font-size: medium;
+       text-align: center;
+   }
+   
+   .productoOfertas {
+       
+       background-color: white;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 20px;
+       margin-bottom: 30px;
+       border: solid 3px grey;
+
+   }
+   .final{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       align-items: center;
+       text-align: center;
+       font-size: small;
+       
+       
+   }
+   
+   
